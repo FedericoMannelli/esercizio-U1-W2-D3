@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LISTA JAVASCRIPT</title>
+    <link rel="stylesheet" href="assets/esercizio.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="listaJs">
+        <h2>LISTA JAVASCRIPT <img src="" alt="" /></h2>
+      </div>
+      <form id="main-form">
+        <div class="row">
+          <input
+            id="input-box"
+            type="text"
+            placeholder="Aggiungi il testo"
+            required
+            minlength="3"
+            maxlength="20"
+          />
+        </div>
+        <div>
+          <button onclick="addTask" type="submit">AGGIUNGI EVENTO</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">evento 1</li>
+          <li>evento 2</li>
+          <li>evento 3</li> -->
+        </ul>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
